@@ -39,4 +39,15 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    // Particle background
+    window.onload = function() {
+        Particles.init({
+          selector: '.background',
+        });
+    };
+
+    // Alert Enabled until site is finished
+    alert('Website building in progress. Resume information is template filler.')
+
 })(jQuery); // End of use strict
