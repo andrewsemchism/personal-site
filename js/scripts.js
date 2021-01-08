@@ -44,10 +44,9 @@
     window.onload = function() {
         Particles.init({
           selector: '.background',
+          color: "#0077B6"
         });
     };
 
-    // Alert Enabled until site is finished
-    alert('Website building in progress. Resume information is template filler.')
 
 })(jQuery); // End of use strict
