@@ -42,10 +42,13 @@
 
     // Particle background
     window.onload = function() {
-        Particles.init({
-          selector: '.background',
-          color: "#0077B6"
-        });
+        if (window.innerWidth > 992) {
+            Particles.init({
+                selector: '.background',
+                color: "#0077B6"
+              });
+        }
+        
     };
 
 
